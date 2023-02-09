@@ -9,23 +9,34 @@
 </head>
 <body>
     <header>
-        <nav class="navbar  navbar-expand-sm navbar-light bg-light">
-            <div class="container-fluid">
+    <nav class="navbar  navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
     <a class="navbar-brand logo" href="#homepage"><img src="assets/images/Stili.jpg" alt="" /></a>
+    <button class="navbar-toggler" id="dropdownMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
+
+      <ul class="navbar-nav me-auto dropdown-menu "aria-labelledby="dropdownMenu">
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Home</a>
+          <a class="nav-link dropdown-item" href="javascript:void(0)">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">About</a>
+          <a class="nav-link dropdown-item" href="javascript:void(0)">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="javascript:void(0)">Contact</a>
+          <a class="nav-link dropdown-item" href="javascript:void(0)">Contact</a>
         </li>
       </ul>
+    </div>
+
+  </div>
         </nav>
     </header>
+    <main>
+
+    </main>
     <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap.bundle.js"></script>
 </body>
 </html>
