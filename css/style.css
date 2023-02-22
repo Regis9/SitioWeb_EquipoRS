@@ -1,0 +1,109 @@
+
+.container1{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    background-color: #212529;
+    color: green;
+    margin: 0;
+    text-align: center;
+}
+.titulo{
+    background-color: black;
+    width: 80%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: auto;
+    height: 200px;
+}
+
+.foto1{
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("../assets/images/vulkan2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.section1{
+    width: 80%;
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-left: auto;
+    background-color: black;
+    height: 200px;
+}
+.section2{
+    width: 80%;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-right: auto;
+    background-color: black;
+    height: 200px;
+}
+.foto2{
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url("../assets/images/salamandras.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.section3{
+    width: 80%;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+}
+
+@media (max-width: 576px) {
+    .section1{
+        width: 80%;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: auto;
+        background-color: black;
+        height: 150px;
+    }
+    .section2{
+        width: 80%;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: auto;
+        background-color: black;
+        height: 150px;
+    }
+
+    .foto2{
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-image: url("../assets/images/salamandras.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+    }
+    .section3{
+        width: 80%;
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 200px;
+        margin: auto;
+        background-color: black;
+    }
+    
+  }
+  
