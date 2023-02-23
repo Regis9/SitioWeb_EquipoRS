@@ -17,7 +17,6 @@
     grid-column-start: 1;
     grid-column-end: 3;
     margin: auto;
-    margin-top: 60px;
     height: 200px;
 }
 
@@ -25,7 +24,7 @@
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-image: url("../assets/images/vulkan2.jpg");
+    background-image: url("../assets/images/paisaje.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -52,7 +51,7 @@
     grid-row-start: 4;
     grid-column-start: 1;
     grid-column-end: 3;
-    background-image: url("../assets/images/salamandras.jpg");
+    background-image: url("../assets/images/paisaje3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -65,6 +64,19 @@
     height: 200px;
     margin: auto;
     background-color: black;
+}
+.migas{
+    margin-top: 60px;
+    background-color: #212529;
+    
+}
+.breadcrumb{
+    margin: auto;
+}
+
+.card-body{
+    background-color: #212529;
+    color: white;
 }
 
 @media (max-width: 576px) {
@@ -91,7 +103,7 @@
         grid-row-start: 5;
         grid-column-start: 1;
         grid-column-end: 3;
-        background-image: url("../assets/images/salamandras.jpg");
+        background-image: url("../assets/images/paisaje3.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 300px;
